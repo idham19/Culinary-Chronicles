@@ -1,5 +1,41 @@
+*{
+    text-decoration: none;
+    background-color: beige;
+}
+body{
+display: block;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
 img{
     width: 400px;
     height: 400px;
+    border-radius: 10%;
+    border: solid 3px black;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.fav-dishes{
+    display: flex;
+    
+    justify-content: space-between
+}
+.fav-cuisine{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+  }
+li{
+    font-size: 2rem;
+    
+}
